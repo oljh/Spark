@@ -1,0 +1,1240 @@
+2018-02-08 09:53:50,473 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:50,474 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:53:50,474 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:51,575 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:51,575 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:53:51,576 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:51,676 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:51,677 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:53:51,677 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:51,778 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:51,781 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:53:51,781 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:51,882 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:51,883 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:53:51,883 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:52,984 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:52,984 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:53:52,984 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:53,085 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:53,086 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:53:53,086 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:53,187 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:53,187 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:53:53,187 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:53,288 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:53,289 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:53:53,289 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:54,392 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:54,397 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:53:54,397 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:54,509 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:54,513 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:53:54,513 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:54,623 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:54,624 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:53:54,624 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:54,724 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:54,725 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:53:54,725 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:55,826 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:55,827 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:53:55,827 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:55,936 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:55,940 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:53:55,940 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:56,041 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:56,042 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:53:56,042 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:56,143 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:56,147 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:53:56,147 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:57,251 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:57,255 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:53:57,255 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:57,356 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:57,360 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:53:57,360 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:57,461 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:57,462 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:53:57,462 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:57,562 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:57,563 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:53:57,563 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:58,666 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:58,670 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:53:58,670 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:58,770 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:58,771 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:53:58,771 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:58,872 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:58,873 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:53:58,873 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:53:58,973 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:53:58,977 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:53:58,977 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:00,084 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:00,085 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:54:00,085 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:00,186 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:00,186 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:54:00,187 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:00,287 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:00,288 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:54:00,288 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:00,388 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:00,389 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:54:00,389 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:01,490 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:01,499 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:54:01,499 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:01,602 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:01,603 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:54:01,603 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:01,705 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:01,706 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:54:01,706 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:01,807 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:01,808 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:54:01,808 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:02,909 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:02,913 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:54:02,913 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:03,014 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:03,015 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:54:03,015 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:03,116 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:03,116 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:54:03,116 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:03,220 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:03,220 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:54:03,220 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:04,100 ERROR org.apache.curator.ConnectionState: [HiveServer2-Background-Pool: Thread-28012]: Connection timed out for connection string (gmlhadoopm01.gomel.iba.by:2181,gmlhadoopw01.gomel.iba.by:2181,gmlhadoopw02.gomel.iba.by:2181,gmlhadoopw03.gomel.iba.by:2181) and timeout (15000) / elapsed (1082908)
+org.apache.curator.CuratorConnectionLossException: KeeperErrorCode = ConnectionLoss
+	at org.apache.curator.ConnectionState.checkTimeouts(ConnectionState.java:197)
+	at org.apache.curator.ConnectionState.getZooKeeper(ConnectionState.java:87)
+	at org.apache.curator.CuratorZookeeperClient.getZooKeeper(CuratorZookeeperClient.java:115)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.getZooKeeper(CuratorFrameworkImpl.java:477)
+	at org.apache.curator.framework.imps.DeleteBuilderImpl$5.call(DeleteBuilderImpl.java:238)
+	at org.apache.curator.framework.imps.DeleteBuilderImpl$5.call(DeleteBuilderImpl.java:233)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:107)
+	at org.apache.curator.framework.imps.DeleteBuilderImpl.pathInForeground(DeleteBuilderImpl.java:230)
+	at org.apache.curator.framework.imps.DeleteBuilderImpl.forPath(DeleteBuilderImpl.java:214)
+	at org.apache.curator.framework.imps.DeleteBuilderImpl.forPath(DeleteBuilderImpl.java:41)
+	at org.apache.hadoop.hive.ql.lockmgr.zookeeper.ZooKeeperHiveLockManager.unlockPrimitive(ZooKeeperHiveLockManager.java:504)
+	at org.apache.hadoop.hive.ql.lockmgr.zookeeper.ZooKeeperHiveLockManager.unlockWithRetry(ZooKeeperHiveLockManager.java:480)
+	at org.apache.hadoop.hive.ql.lockmgr.zookeeper.ZooKeeperHiveLockManager.unlock(ZooKeeperHiveLockManager.java:468)
+	at org.apache.hadoop.hive.ql.lockmgr.zookeeper.ZooKeeperHiveLockManager.releaseLocks(ZooKeeperHiveLockManager.java:236)
+	at org.apache.hadoop.hive.ql.Driver.releaseLocksAndCommitOrRollback(Driver.java:1249)
+	at org.apache.hadoop.hive.ql.Driver.runInternal(Driver.java:1505)
+	at org.apache.hadoop.hive.ql.Driver.run(Driver.java:1285)
+	at org.apache.hadoop.hive.ql.Driver.run(Driver.java:1280)
+	at org.apache.hive.service.cli.operation.SQLOperation.runQuery(SQLOperation.java:236)
+	at org.apache.hive.service.cli.operation.SQLOperation.access$300(SQLOperation.java:89)
+	at org.apache.hive.service.cli.operation.SQLOperation$3$1.run(SQLOperation.java:301)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1917)
+	at org.apache.hive.service.cli.operation.SQLOperation$3.run(SQLOperation.java:314)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2018-02-08 09:54:04,324 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:04,351 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:54:04,351 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:04,452 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:04,452 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:54:04,452 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:04,553 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:04,556 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:54:04,556 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:04,657 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:04,657 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:54:04,658 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:05,759 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:05,759 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:54:05,759 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:05,864 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:05,864 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:54:05,864 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:05,966 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:05,967 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:54:05,967 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:06,067 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:06,068 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:54:06,068 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:07,169 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:07,172 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:54:07,172 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:07,273 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:07,274 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:54:07,274 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:07,374 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:07,375 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:54:07,375 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:07,476 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:07,477 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:54:07,477 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:08,578 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:08,579 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:54:08,579 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:08,681 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:08,681 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:54:08,682 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:08,782 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:08,783 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:54:08,783 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:08,884 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:08,884 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:54:08,884 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:09,988 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:09,989 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:54:09,989 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:10,090 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:10,091 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:54:10,091 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:10,192 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:10,193 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:54:10,193 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:10,294 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:10,298 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:54:10,298 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:11,399 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:11,399 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:54:11,399 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:11,500 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:11,501 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:54:11,501 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:11,603 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:11,604 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:54:11,604 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:11,705 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:11,706 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:54:11,706 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:12,807 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:12,808 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:54:12,808 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:12,908 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:12,909 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:54:12,909 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:13,010 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:13,011 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:54:13,011 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:13,112 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:13,112 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:54:13,112 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:14,213 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:14,214 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:54:14,214 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:14,315 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:14,315 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:54:14,315 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:14,416 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:14,416 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:54:14,416 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:14,519 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:14,520 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:54:14,520 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:15,621 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:15,622 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:54:15,622 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:15,722 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:15,723 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:54:15,723 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:15,823 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:15,823 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:54:15,823 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:15,924 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:15,924 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:54:15,924 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:17,025 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:17,026 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:54:17,026 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:17,127 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:17,128 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:54:17,128 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:17,232 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:17,232 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:54:17,232 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:17,333 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:17,333 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:54:17,333 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:18,434 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:18,435 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:54:18,435 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:18,538 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:18,538 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:54:18,538 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:18,639 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:18,639 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:54:18,639 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:18,740 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:18,740 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:54:18,740 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:19,842 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:19,842 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:54:19,843 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:19,943 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:19,944 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:54:19,944 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:20,045 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:20,045 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:54:20,045 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:20,146 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:20,147 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:54:20,147 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:20,150 ERROR org.apache.curator.ConnectionState: [HiveServer2-Background-Pool: Thread-28012]: Connection timed out for connection string (gmlhadoopm01.gomel.iba.by:2181,gmlhadoopw01.gomel.iba.by:2181,gmlhadoopw02.gomel.iba.by:2181,gmlhadoopw03.gomel.iba.by:2181) and timeout (15000) / elapsed (1098962)
+org.apache.curator.CuratorConnectionLossException: KeeperErrorCode = ConnectionLoss
+	at org.apache.curator.ConnectionState.checkTimeouts(ConnectionState.java:197)
+	at org.apache.curator.ConnectionState.getZooKeeper(ConnectionState.java:87)
+	at org.apache.curator.CuratorZookeeperClient.getZooKeeper(CuratorZookeeperClient.java:115)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.getZooKeeper(CuratorFrameworkImpl.java:477)
+	at org.apache.curator.framework.imps.DeleteBuilderImpl$5.call(DeleteBuilderImpl.java:238)
+	at org.apache.curator.framework.imps.DeleteBuilderImpl$5.call(DeleteBuilderImpl.java:233)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:107)
+	at org.apache.curator.framework.imps.DeleteBuilderImpl.pathInForeground(DeleteBuilderImpl.java:230)
+	at org.apache.curator.framework.imps.DeleteBuilderImpl.forPath(DeleteBuilderImpl.java:214)
+	at org.apache.curator.framework.imps.DeleteBuilderImpl.forPath(DeleteBuilderImpl.java:41)
+	at org.apache.hadoop.hive.ql.lockmgr.zookeeper.ZooKeeperHiveLockManager.unlockPrimitive(ZooKeeperHiveLockManager.java:504)
+	at org.apache.hadoop.hive.ql.lockmgr.zookeeper.ZooKeeperHiveLockManager.unlockWithRetry(ZooKeeperHiveLockManager.java:480)
+	at org.apache.hadoop.hive.ql.lockmgr.zookeeper.ZooKeeperHiveLockManager.unlock(ZooKeeperHiveLockManager.java:468)
+	at org.apache.hadoop.hive.ql.lockmgr.zookeeper.ZooKeeperHiveLockManager.releaseLocks(ZooKeeperHiveLockManager.java:236)
+	at org.apache.hadoop.hive.ql.Driver.releaseLocksAndCommitOrRollback(Driver.java:1249)
+	at org.apache.hadoop.hive.ql.Driver.runInternal(Driver.java:1505)
+	at org.apache.hadoop.hive.ql.Driver.run(Driver.java:1285)
+	at org.apache.hadoop.hive.ql.Driver.run(Driver.java:1280)
+	at org.apache.hive.service.cli.operation.SQLOperation.runQuery(SQLOperation.java:236)
+	at org.apache.hive.service.cli.operation.SQLOperation.access$300(SQLOperation.java:89)
+	at org.apache.hive.service.cli.operation.SQLOperation$3$1.run(SQLOperation.java:301)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1917)
+	at org.apache.hive.service.cli.operation.SQLOperation$3.run(SQLOperation.java:314)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2018-02-08 09:54:21,248 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:21,249 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:54:21,249 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:21,349 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:21,350 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:54:21,350 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:21,450 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:21,451 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:54:21,451 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:21,552 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:21,552 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:54:21,553 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:22,656 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:22,657 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:54:22,657 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:22,759 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:22,759 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:54:22,759 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:22,860 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:22,861 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:54:22,861 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:22,961 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:22,962 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:54:22,962 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:24,063 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:24,064 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:54:24,064 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:24,166 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw01.gomel.iba.by/172.20.237.216:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:24,167 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw01.gomel.iba.by/172.20.237.216:2181
+2018-02-08 09:54:24,167 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:24,268 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw02.gomel.iba.by/172.20.237.208:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:24,268 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw02.gomel.iba.by/172.20.237.208:2181
+2018-02-08 09:54:24,268 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw02.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:24,369 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopw03.gomel.iba.by/172.20.237.212:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:24,370 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopw03.gomel.iba.by/172.20.237.212:2181
+2018-02-08 09:54:24,370 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopw03.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
+2018-02-08 09:54:25,471 INFO  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Opening socket connection to server gmlhadoopm01.gomel.iba.by/172.20.237.201:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-02-08 09:54:25,472 ERROR org.apache.zookeeper.ClientCnxnSocketNIO: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Unable to open socket to gmlhadoopm01.gomel.iba.by/172.20.237.201:2181
+2018-02-08 09:54:25,472 WARN  org.apache.zookeeper.ClientCnxn: [HiveServer2-Background-Pool: Thread-28012-SendThread(gmlhadoopm01.gomel.iba.by:2181)]: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:266)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:967)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1003)
