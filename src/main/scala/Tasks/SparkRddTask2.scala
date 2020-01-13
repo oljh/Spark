@@ -20,14 +20,10 @@ object SparkRddTask2 {
     val messageRgx = "(?<message>[\\s\\S]*?(?=\\d{4}-\\d{2}|\\Z))"
     val keyValPattern: Regex = (timeStampRgx + "\\s+" + levelRgx + "\\s+" + classRgx + "\\s+" + threadRgx + "\\s+" + messageRgx).r
 
-    val BankLines = sc.longAccumulator
 
     val logsRDD = logFile
       .flatMap(keyValPattern.findAllMatchIn(_))
       .map(m => Log(m.group("timestamp"), m.group("level"), m.group("class"), m.group("thread"), m.group("message")))
-
-val nP = logFile
-  .flatMap(keyValPattern.findAllMatchIn(_))
 
     val warnCnt = logsRDD.filter(f => f.level.contains("WARN")).count()
     val errCnt = logsRDD.filter(f => f.level.contains("ERROR")).count()
