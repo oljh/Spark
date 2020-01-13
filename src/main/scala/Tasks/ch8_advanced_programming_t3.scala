@@ -13,10 +13,13 @@ object ch8_advanced_program_t3 {
 
 
 
-    println("src/res/scripts/translate_digit2.sh".!!)
 
     def bashShell(command: String) = Seq("bash", "-c", s"$command").!!.trim
     //spark.sparkContext.parallelize(br.lines()).foreach(line => println(s"$line") )
+
+    println(bashShell("chmod +x src/res/scripts/translate_digit.sh"))
+
+    println(bashShell("./src/res/scripts/translate_digit.sh"))
 
     println(bashShell("echo `date`"))
   }
