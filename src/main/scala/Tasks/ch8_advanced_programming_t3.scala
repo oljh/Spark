@@ -24,7 +24,7 @@ object ch8_advanced_program_t3 {
 
     val path = shData.saveAsTextFile("file:///src/res/translate_digit.sh")
 
-    val nums: List[Integer] = List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+    val nums2: List[Integer] = List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
     def bash(command: String) = Process("sh", Seq("-c",s"$command")).!!.trim
 
